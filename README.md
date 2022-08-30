@@ -6,9 +6,12 @@
 
 1. Clone the project
 
-2. ```npm install``` 
+2. Run the command to instal the packages
+```
+npm install
+``` 
 
-3. Clone the file ```.env.template``` and rename it to ```.env```
+3. Clone the file ___.env.template___ and rename it to ___.env___
 
 4. Change the environment variables
 
@@ -17,5 +20,13 @@
 docker-compose up -d
 ```
 
-6. Run (on development):
-```npm run start:dev```
+6. Execute SEED
+
+```
+http://localhost:3000/api/seed
+```
+
+7. Run (on development):
+```
+npm run start:dev
+```
