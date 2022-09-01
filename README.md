@@ -20,13 +20,14 @@ npm install
 docker-compose up -d
 ```
 
-6. Execute SEED
+6. Run (on development):
+```
+npm run start:dev
+```
+
+7. Execute SEED
 
 ```
 http://localhost:3000/api/seed
 ```
 
-7. Run (on development):
-```
-npm run start:dev
-```
